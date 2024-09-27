@@ -8,7 +8,7 @@ screen = pygame.display.set_mode(pyautogui.size(), pygame.SCALED, vsync = 1)
 clock = pygame.time.Clock()
 running = True
 
-logo = pygame.image.load(r"C:\Users\pkarl\Code\python bs\src1\DVD_logo.svg.png") 
+logo = pygame.image.load(r"src/DVD_logo.svg.png") 
 logo = logo.convert_alpha()
 logo = pygame.transform.scale(logo, (400, 204))
 
